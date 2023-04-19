@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guvi JS Day 3</title>
+    </head>
+    <body>
+        <h1>Hello</h1>
+        <h2>This is an example for XML HTTP Request</h2>
+        <script>
+            console.log("Welcome to HTML JS")
+
+            function handleData(){
+                console.log(JSON.parse(this.responseText))
+            }
+
+            const req = new XMLHttpRequest();
+            // req.addEventListener('load',handleData)
+            req.onload = (res)=>{
+                console.log(JSON.parse(res.srcElement.responseText))
+            }
+            req.open("GET","https://restcountries.com/v3.1/all")
+            req.send()
+        </script>
+    </body>
+</html>
