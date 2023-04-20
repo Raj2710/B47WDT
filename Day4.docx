@@ -1,0 +1,72 @@
+// let a = [10,20,30,40,50]
+// console.log(sum(a))
+
+// function sum(a,b)
+// {
+//   let sum = 0
+//   for(i of a)
+//         sum = sum + i
+//   return sum
+// }
+
+
+
+// let result = sum(5,10)
+// console.log(result)
+
+//Arrow Function
+// let sum = (a,b)=>{
+//     return a+b
+// }
+
+// console.log(sum(5,10))
+
+
+//Immediately Invoked Function Expression
+// (function fact(n)
+// {
+//     let fact = 1
+//     for(let i=1;i<=n;i++)
+//         fact=fact*i
+//     console.log(fact)
+// })(5)
+
+// let a = [10,20,30,40,50,60]
+
+
+
+// a.forEach(function sum(e){
+//     console.log(e*2)
+// })
+
+// let details1 = {name:"Naga",email:"naga@gmail.com",mobile:"8298911",age:"20",gender:"Male"}
+// let details2 = {mobile:"8298911",age:"20",gender:"Male",name:"Naga",email:"naga@gmail.com",price:"1000"}
+
+// let flag = true
+// for(let e in details1)
+// {
+//     if(details1[e]!==details2[e])
+//     {
+//         flag = false;
+//         break
+//     }
+// }
+// flag?console.log("Equall"):console.log("Not Equall")
+
+// let keys1 = Object.keys(details1)
+// let keys2 = Object.keys(details2)
+// let flag = true
+// if(keys1.length===keys2.length)
+// {
+//     for(let e of keys1)
+//     {
+//         if(details1[e]!==details2[e])
+//         {
+//             flag=false
+//             break;
+//         }
+//     }
+// }
+// else
+//     flag = false
+// flag?console.log("Equall"):console.log("Not Equall")
