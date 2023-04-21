@@ -1,0 +1,114 @@
+//OOPS --> Object Oriented Programming 
+
+// class --> Blueprint
+// object --> An model create based on the blueprint
+
+// class Myclass{
+//     constructor(x,y,z=10){
+//         this.a = x
+//         this.b = y
+//         this.c = z
+//     }
+    
+//     add(){
+//         return this.a + this.b
+//     }
+// }
+
+// let obj1 = new Myclass(30,40)
+// let obj2 = new Myclass(2,4,3)
+
+// console.log(`${obj1.a} + ${obj1.b} = ${obj1.add()}`)
+// console.log(obj2.a,obj2.b,obj2.c,obj2.add())
+
+
+// let a = [1,2,3,4]
+// let b = [10,20,30,40]
+// console.log(a.join(""),b.length)
+
+
+// class MyArray {
+//     constructor(a)
+//     {
+//         this.len = 0
+//         for(let i in a)
+//             this.len++
+//     }
+    
+//     insert(n)
+//     {
+//         this.length++
+//     }
+    
+//     del(n)
+//     {
+//         this.length--
+//     }
+// }
+
+// let x = [10,20,30,40]
+// let a = new MyArray(x)
+// console.log(a.len)
+
+
+// let a = new Array(10,20,30,40)
+// console.log(a)
+
+
+// let a = [10,20,30]
+
+
+// class Abc{
+//     print(a,b)
+//     {
+        
+//         console.log("Hi I am print",a,b)
+//     }
+// }
+
+// let obj1 = new Abc()
+// obj1.print(10,20)
+
+
+//setter and getter
+// https://www.programiz.com/javascript/getter-setter
+
+
+// let a = ["Hello","How","are","you","I","am","fine"]
+
+// let lengths = a.map((e)=>
+// {
+//     return e.length
+// })
+
+// console.log(lengths)
+
+
+// let a = ["Hello","How","are","you","I","am","fine"]
+
+// let filteredData = a.filter((e)=>e.length==3)
+// console.log(filteredData)
+
+// let filteredData = a.filter((e)=>{
+//     if(e.length>3)
+//         return true
+    
+// })
+// console.log(filteredData)
+
+
+// let a = [1,2,3,4,5]
+// let sum = 0
+// for(let i=0;i<a.length;i++)
+// {
+//     sum = sum + a[i]
+// }
+
+let a = [1,2,3,4,5]
+let sum = a.reduce((accumulator,currentValue)=>{
+    return accumulator*currentValue
+})
+console.log(sum)
+
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array

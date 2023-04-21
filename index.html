@@ -26,6 +26,17 @@
                 // {
                 //     console.log(e.name.common,e.population)
                 // }
+
+                // let country = data.map((e)=>`${e.name.common} - ${e.population}`)
+                // console.log(country)
+
+                let country = data.filter((e)=>{
+                    if(e.continents[0]=='North America')
+                        return true
+                    else
+                        return false
+                })
+                console.log(country)
             }
 
             const req = new XMLHttpRequest();
