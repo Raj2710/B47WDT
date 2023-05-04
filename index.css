@@ -1,0 +1,83 @@
+.title1{
+    background-color: aqua !important;
+    color: blue;
+    text-align: center;
+    display: block; /* display:inline*/
+}
+
+#title2{
+    background-color: bisque;
+    color: blueviolet;
+}
+
+h1{
+    background-color: navy;
+    color: white;
+}
+
+/* *{
+    background-color: blueviolet;
+    color: white;
+    font-family: verdana !important;
+} */
+
+#para{
+    font-family: Verdana;
+    color: bisque;
+}
+
+a:visited{
+    color: aqua;
+}
+
+a:active{
+    color: red;
+    font-size: xx-large;
+}
+
+a:link
+{
+    color:black
+}
+
+a:hover{
+    color:hotpink
+}
+
+button:hover{
+    box-shadow: 1px 1px 1px 1px;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: aquamarine;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+th{
+    background-color: grey;
+}
+
+tr:nth-child(even)
+{
+  background-color: grey;  
+}
+
+
+tr:hover{
+    background-color: antiquewhite;
+}
+
+div>p{
+    color: blue;
+}

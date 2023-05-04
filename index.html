@@ -5,6 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Doc</title>
+    <style>
+        /* . --> class selector
+           # --> id selector
+           p, span, div
+           * --> universal selector
+
+           order of precedence --> id, class, tag/elements, universal selector
+        */
+        /* .title1{
+            background-color: aqua;
+            color: blue;
+        }
+
+        #title2{
+            background-color: bisque;
+            color: blueviolet;
+        }
+
+        h1{
+            background-color: navy;
+            color: white;
+        }
+
+        *{
+            background-color: blueviolet;
+            color: white;
+        }
+
+        #para{
+            font-family: Verdana;
+            color: bisque;
+        } */
+    </style>
+
+
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <!-- <section>
@@ -122,5 +158,74 @@
 
     <!-- <img src="https://www.bapugraphics.com/assets/img/port_upload_dir/table-4.jpg"> -->
     <!-- <img src="./assets/Flag_of_India.svg.webp"> -->
+
+    <!-- <h1 style="color: blue; background-color: aquamarine; text-align: center;">Welcome to the CSS</h1> -->
+
+    <!-- <h1 class="title1" >Welcome to the MERN Stack</h1>
+    <h1 id="title2">Welcome to HTML</h1>
+    <h1 class="title1" id="title2">This is heading 1</h1>
+    <h1 >This is heading 2</h1>
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus cumque architecto, asperiores adipisci sapiente voluptates, velit corrupti quibusdam, vitae odio sint aperiam fuga ipsa eum excepturi nam. Totam, commodi ea?</p> -->
+        <!-- <a href="https://zoom.us" target="_blank">Signup</a>
+
+        <button>Signup</button> -->
+
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="6">Student Details</th>
+                </tr>
+                <tr>
+                    <th rowspan="2">Name</th>
+                    <th rowspan="2">Email</th>
+                    <th rowspan="2">Mobile</th>
+                    <th colspan="2">Batch</th>
+                    <th rowspan="2">Status</th>
+                </tr>
+                <tr>
+                    <th>Day</th>
+                    <th>Night</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Aditya</td>
+                    <td>aditya@gmail.com</td>
+                    <td>9019009101</td>
+                    <td>B47WDT</td>
+                    <td>B47WDT2</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>Bala</td>
+                    <td colspan="2">bala@gmail.com</td>
+                    <td>B47WDT</td>
+                    <td>B47WDT2</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>Dharmesh</td>
+                    <td>dharmesh@gmail.com</td>
+                    <td>9090109901</td>
+                    <td>B47WDT</td>
+                    <td>B47WDT2</td>
+                    <td>Active</td>
+                </tr>
+                <tr>
+                    <td>Jaison</td>
+                    <td>jaison@gmail.com</td>
+                    <td>89892819190</td>
+                    <td>B47WDT</td>
+                    <td>B47WDT2</td>
+                    <td>Active</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div>
+            <p>What is life?</p>
+        </div>
+
+        <p>This is not life</p>
 </body>
 </html>
