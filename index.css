@@ -10,10 +10,10 @@
     color: blueviolet;
 }
 
-h1{
+/* h1{
     background-color: navy;
     color: white;
-}
+} */
 
 /* *{
     background-color: blueviolet;
@@ -78,6 +78,79 @@ tr:hover{
     background-color: antiquewhite;
 }
 
-div>p{
+/* div>p{
     color: blue;
+} */
+
+.wrapper{
+    background-color: #5793f2;
+    color: white;
+    border: 20px solid black;
+    border-radius: 50px;
+    /* margin: 100px; */
+    /* margin-left:50px;
+    margin-top: 50px; */
+    /* margin: 50px 100px;  like length x breadth*/
+     /* Shorthand --> TRBL */
+    margin: 50px 100px 50px 100px;
+    padding: 50px 100px 25px 50px;
+}
+
+.profile-pic{
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+
+.profile-wrapper{
+    text-align: center;
+}
+
+.grand-parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: yellow;
+    justify-content: space-around;
+}
+
+.parent{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    background-color: #5793f2;
+    margin: 10px;
+}
+
+/* 
+justify-content --> left to right
+align-items --> vertical alignment
+align-content ---> vertical positioning
+*/
+
+
+.child{
+    background-color: greenyellow;
+    text-align: center;
+    border: 1px solid black;
+    margin: 25px;
+    font-size: xx-large;
+    padding: 25px;
+}
+
+.grid-parent{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: #5793f2;
+    margin: 10px;
+}
+
+.grid-child{
+    background-color: greenyellow;
+    text-align: center;
+    border: 1px solid black;
+    margin: 25px;
+    font-size: xx-large;
+    padding: 25px;
 }
