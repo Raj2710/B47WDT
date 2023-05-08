@@ -154,3 +154,94 @@ align-content ---> vertical positioning
     font-size: xx-large;
     padding: 25px;
 }
+
+
+.position-wrapper
+{
+    background-color: #5793f2;
+    height: 500px;
+    display: block;
+}
+
+.position-title{
+    position: absolute;
+    margin-top: 100px;
+    background-color: yellow;
+}
+
+.position-title2{
+    position: absolute;
+    margin-top: 50px;
+}
+
+
+.position-fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    background-color: palegreen;
+    font-size: x-large;
+    border-radius: 10px;
+}
+
+.position-sticky{
+    height: 100px;
+    position:sticky;
+    background-color: blueviolet;
+    bottom:0
+}
+
+.inherit-wrapper{
+    width: 100%;
+    background-color: #5793f2;
+    height: 500px;
+}
+
+.inheirt-child{
+    /* width: inherit;
+    height: 50px;
+    background-color: palegreen; */
+    height: 100px;
+    background-image: radial-gradient(#c5db37,pink,#37dbd3);
+}
+
+td>div{
+    width: 150px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+td>div:hover{
+    width: 100%;
+    cursor: pointer;
+}
+.welcome{
+    font-family: Verdana;
+    font-size: 10vh    ;
+}
+
+@media (max-width:400px){
+    .welcome{
+        
+        font-size: 5vh    ;
+    }
+
+    table{
+        width: 100px;
+    }
+}
+
+@media (max-width:200px)
+{
+    .welcome{
+        
+        font-size: 2vh;
+        color: red;
+    }
+}
+
+.icon-color{
+    /* background-color: #c5db37; */
+    color: #c5db37;
+}
