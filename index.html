@@ -1,373 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Doc</title>
-    <script src="https://kit.fontawesome.com/54c6e03859.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        /* . --> class selector
-           # --> id selector
-           p, span, div
-           * --> universal selector
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- <div class="container-md" style="background-color: palegoldenrod;">
 
-           order of precedence --> id, class, tag/elements, universal selector
-        */
-        /* .title1{
-            background-color: aqua;
-            color: blue;
-        }
+          <div class="row">
+            <label class="col-md-2"> First Name </label> <input type="text" class="col-md-4">
+            <label class="col-md-2">Last Name</label> <input type="text" class="col-md-4">
+          </div>
+          <div class="row">
+            <label class="col-md-2"> First Name </label> <input type="text" class="col-md-4">
+            <label class="col-md-2">Last Name</label> <input type="text" class="col-md-4">
+          </div>
 
-        #title2{
-            background-color: bisque;
-            color: blueviolet;
-        }
+          <button class="btn btn-warning">Submit</button>
 
-        h1{
-            background-color: navy;
-            color: white;
-        }
-
-        *{
-            background-color: blueviolet;
-            color: white;
-        }
-
-        #para{
-            font-family: Verdana;
-            color: bisque;
-        } */
-    </style>
-
-
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
-    <!-- <section>
-        <h1>This is heading 1</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni minima deserunt delectus. Architecto facere quia, vitae dignissimos hic veniam esse. Alias modi atque odit sint doloremque? Error quo natus maiores?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam nemo fugiat, doloremque ad eos debitis corrupti ullam quia tempora aperiam similique ratione impedit adipisci exercitationem? Harum animi consectetur sunt.
-            <br>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque illo sint dignissimos ipsam suscipit possimus iusto modi. Sunt sit, voluptatem nesciunt officia quasi vitae nihil sed, voluptatum et harum atque!
-            <br>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, consectetur. Voluptatem, magni blanditiis vel necessitatibus ipsa mollitia. Maiores obcaecati voluptas veritatis optio, minus doloremque, rerum autem neque nostrum atque accusantium!
-            <br>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, dolore doloremque aperiam nisi est a quis nam aspernatur minus voluptatibus earum minima voluptate magni error possimus sed sequi. Laboriosam, doloribus!
-            <hr>
-        </p>
-
-        <div> 
-            This is a div tag 
-            <b>I am bold</b> 
-            <i>I am Italic</i> 
-            <u>I am underline</u>
-            <s>I am strike Through</s>
-            10 <sup>2</sup> = 100
-            log <sub>10</sub> 10 = 1
-            <mark>I can highlight things</mark>
-        </div>
-        <div>
-            This is another div tag
-            <div>I am nested div</div>
-        </div>
-        <span>This a span tag</span>
-        <span>This ia another span tag</span>
-    </section> -->
-
-    <!-- <section>
-        <h1>Sign up in seconds!</h1>
-        <form>
-           <div>
-                <label for="name">Name :</label>
-                <input type="text" name="name" placeholder="Enter Name"> 
-           </div>
-           <br>
-           <div>
-                <label for="email">Email :</label>
-                <input type="email" name="email" placeholder="Email address">
+          <div class="card" style="width: 18rem;">
+            <img src="./assets/Flag_of_India.svg.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">India</h5>
+              <p class="card-text">The Worlds 7th Largest Country</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
-            <br>
-            <div>
-                 <label>Password :</label>
-                 <input type="password" name="password" placeholder="Type your password">
-             </div>
-             <br>
-             <div>
-                  <label>Gender :</label>
-                  <input type="radio" name="gender" value="Male"> <label>Male</label>
-                  <input type="radio" name="gender" value="Female"> <label>Female</label>
-                  <input type="radio" name="gender" value="Others"> <label>Others</label>
+          </div>
+    </div> -->
 
-              </div>
-              <br>
-              <div>
-                  <input type="checkbox" name="consent" value="true"> 
-                  <label>Accept the 
-                    <a href="https://www.facebook.com/" target="_blank">Terms and Coditions</a>
-                  </label>
-              </div>
-              <br>
-              <div>
-                <button type="submit">Sign Up</button>
-              </div>
-        </form>
-        
-    </section> -->
-
-    <!-- <section>
-        The following courses are offered in Guvi
-        <ul>
-            <li>Full Stack - MERN</li>
-            <li>Full Stack - MEAN</li>
-            <li>Full Stack Python
-                <ul>
-                    <li>Django</li>
-                    <li>Flask</li>
-                </ul>
-            </li>
-        </ul>
-
-        <ol>
-            <li>Full Stack - JAVA</li>
-            <li>Android Studio</li>
-            <li>Flutter</li>
-        </ol>
-    </section> -->
-
-    <section>
-        <table style="border: 1px solid black;">
-            <thead >
-                <th style="border: 1px solid black;"> <i class="fa-solid fa-signature fa-2x icon-color"></i> Name</th>
-                <th style="border: 1px solid black;"> <i class="fa-solid fa-envelope fa-2x icon-color"></i> Email</th>
-                <th style="border: 1px solid black;"> <i class="fa-solid fa-person-half-dress fa-2x icon-color"></i> Gender</th>
+    <div class="container-fluid">
+        <table class="table table-striped table-bordered">
+            <thead> 
+                <th scope="col">#</th>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Mobile</th>
+                <th scope="col">Status</th>
             </thead>
             <tbody>
-                <tr >
-                    <td style="border: 1px solid black;">Naga</td>
-                    <td style="border: 1px solid black;">
-                        <div>nagarajan.chandrmohan@gmail.com
-                            nagarajanc@theecode.xyz
-                        </div>
+                <tr class="border">
+                    <th scope="row">1</th>
+                    <td>Aditya</td>
+                    <td>BK</td>
+                    <td>aditya@gmail.com</td>
+                    <td>901901901091</td>
+                    <td>
+                        <button class="btn btn-success">Activate</button>
+                        &nbsp;&nbsp;
+                        <button class="btn btn-danger">Deactivate</button>
                     </td>
-                    <td style="border: 1px solid black;">Male</td>
                 </tr>
                 <tr>
-                    <td style="border: 1px solid black;">Akal</td>
-                    <td style="border: 1px solid black;">akal@gmail.com</td>
-                    <td style="border: 1px solid black;">Female</td>
+                    <th scope="row">2</th>
+                    <td>Bala</td>
+                    <td>White</td>
+                    <td>bala@gmail.com</td>
+                    <td>9090637321</td>
+                    <td>
+                        <button class="btn btn-success">Activate</button>
+                        &nbsp;&nbsp;
+                        <button class="btn btn-danger">Deactivate</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mohideen</td>
+                    <td>Mohammed</td>
+                    <td colspan="2" class="text-center">mohideen@gmail.com</td>
+                    <td>
+                        <button class="btn btn-success">Activate</button>
+                        &nbsp;&nbsp;
+                        <button class="btn btn-danger">Deactivate</button>
+                    </td>
                 </tr>
             </tbody>
         </table>
-    </section>
-
-    <!-- <img src="https://www.bapugraphics.com/assets/img/port_upload_dir/table-4.jpg"> -->
-    <!-- <img src="./assets/Flag_of_India.svg.webp"> -->
-
-    <!-- <h1 style="color: blue; background-color: aquamarine; text-align: center;">Welcome to the CSS</h1> -->
-
-    <!-- <h1 class="title1" >Welcome to the MERN Stack</h1>
-    <h1 id="title2">Welcome to HTML</h1>
-    <h1 class="title1" id="title2">This is heading 1</h1>
-    <h1 >This is heading 2</h1>
-    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus cumque architecto, asperiores adipisci sapiente voluptates, velit corrupti quibusdam, vitae odio sint aperiam fuga ipsa eum excepturi nam. Totam, commodi ea?</p> -->
-        <!-- <a href="https://zoom.us" target="_blank">Signup</a>
-
-        <button>Signup</button> -->
-
-        <!-- <table>
-            <thead>
-                <tr>
-                    <th colspan="6">Student Details</th>
-                </tr>
-                <tr>
-                    <th rowspan="2">Name</th>
-                    <th rowspan="2">Email</th>
-                    <th rowspan="2">Mobile</th>
-                    <th colspan="2">Batch</th>
-                    <th rowspan="2">Status</th>
-                </tr>
-                <tr>
-                    <th>Day</th>
-                    <th>Night</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Aditya</td>
-                    <td>aditya@gmail.com</td>
-                    <td>9019009101</td>
-                    <td>B47WDT</td>
-                    <td>B47WDT2</td>
-                    <td>Active</td>
-                </tr>
-                <tr>
-                    <td>Bala</td>
-                    <td colspan="2">bala@gmail.com</td>
-                    <td>B47WDT</td>
-                    <td>B47WDT2</td>
-                    <td>Active</td>
-                </tr>
-                <tr>
-                    <td>Dharmesh</td>
-                    <td>dharmesh@gmail.com</td>
-                    <td>9090109901</td>
-                    <td>B47WDT</td>
-                    <td>B47WDT2</td>
-                    <td>Active</td>
-                </tr>
-                <tr>
-                    <td>Jaison</td>
-                    <td>jaison@gmail.com</td>
-                    <td>89892819190</td>
-                    <td>B47WDT</td>
-                    <td>B47WDT2</td>
-                    <td>Active</td>
-                </tr>
-            </tbody>
-        </table> -->
-
-        <!-- <div>
-            <p>What is life?</p>
-        </div>
-
-        <p>This is not life</p> -->
-
-        <!-- <div class="wrapper">
-            <h1 class="heading">Welcome to Box Model</h1>
-            <p class="content">We have Margin, Border, and Padding</p>
-        </div>
-
-        <div class="profile-wrapper">
-            <img src="./assets//Flag_of_India.svg.webp" alt="" class="profile-pic">
-        </div> -->
-        
-            
-    <!-- <div class="grand-parent">
-        <div class="parent">
-            <div class="child">
-                1
-            </div>
-            <div class="child">
-                2
-            </div>
-            <div class="child">
-                3
-            </div>
-            <div class="child">
-                4
-            </div>
-            <div class="child">
-                5
-            </div>
-        </div>
-        <div class="parent">
-            <div class="child">
-                1
-            </div>
-            <div class="child">
-                2
-            </div>
-            <div class="child">
-                3
-            </div>
-            <div class="child">
-                4
-            </div>
-            <div class="child">
-                5
-            </div>
-        </div>
-        <div class="parent">
-            <div class="child">
-                1
-            </div>
-            <div class="child">
-                2
-            </div>
-            <div class="child">
-                3
-            </div>
-            <div class="child">
-                4
-            </div>
-            <div class="child">
-                5
-            </div>
-        </div>
-
-        <div class="parent">
-            <div class="child">
-                1
-            </div>
-            <div class="child">
-                2
-            </div>
-            <div class="child">
-                3
-            </div>
-            <div class="child">
-                4
-            </div>
-            <div class="child">
-                5
-            </div>
-        </div>
-    </div>
-    
-    <div class="grid-parent">
-        <div class="grid-child">
-            1
-        </div>
-        <div class="grid-child">
-            2
-        </div>
-        <div class="grid-child">
-            3
-        </div>
-        <div class="grid-child">
-            4
-        </div>
-        <div class="grid-child">
-            5
-        </div>
-        <div class="grid-child">
-            6
-        </div>
-        <div class="grid-child">
-            7
-        </div>
-    </div> -->
-    
-    <!-- <div class="position-sticky">
-        <h1 >This is the header of this page</h1>
     </div>
 
-    <div class="position-wrapper">
-        <div class="position-title">
-            Hello Welcome to the Jungle!
-        </div>
-        <div class="position-title2">
-            Hello Welcome to the Jungle!
-        </div>
-      
-    </div>
-    <div class="position-fixed">
-        Chat with Us
-    </div> -->
-   
-    <!-- <div class="inherit-wrapper">
-        Hello! Welcome to the Great Grikalan Magic Show!
-        <div class="inheirt-child">
-            By Girikalan    
-        </div>
-    </div> -->
-
-
-    <div class="welcome">
-        <i class="fa-solid fa-handshake icon-color"></i> Welcome to the Great Grikalan Magic Show!
-    </div>
-
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
 </html>
