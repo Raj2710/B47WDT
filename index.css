@@ -1,0 +1,133 @@
+*{
+    font-family: Verdana;
+    font-size:large;
+}
+.header-wrapper{
+    height: 350px;
+    width: 100%;
+    background-color: #565656;
+}
+
+.profile-wrapper{
+    position: absolute;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 75px;
+}
+.profile-picture{
+    width: 175px;
+    height: 175px;
+    border: 5px dotted #fbbe29;
+    border-radius: 50%;
+}
+.white-banner{
+    position: absolute;
+    width: inherit;
+    height: 50px;
+    background-color: #eeeeee;
+    margin-top: 250px;
+}
+
+.name-wrapper{
+    position: absolute;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 220px;
+}
+.name{
+    background-color: #fbbe29;
+    font-size: 4em;
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-wrapper{
+    border-bottom: 1px solid #565656;
+    padding: 5px;
+    text-align: center;
+}
+
+.body-wrapper{
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 50px;
+}
+
+.left-wrapper,.right-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.left-wrapper+.right-wrapper{
+    border-left: 1px solid #565656;
+}
+
+.icon{
+    color: #fbbe29;
+    margin-top: 15px;
+}
+
+.section-header{
+    display: flex;
+}
+
+.icon-wrapper{
+    background-color: #565656;
+    text-align: center;
+    width: 65px;
+    height:65px;
+    border-radius: 50%;
+   
+}
+.border-wrapper{
+    width: 75px;
+    height:75px;
+    border-radius: 50%;
+    border: 5px dotted #fbbe29;
+}
+.title{
+    display: inline;
+    font-size: 2.5em;
+    color: #565656;
+    overflow:hidden;
+
+}
+.section-body{
+    margin-top: 10px;
+    padding: 5px;
+}
+.progress[value]{
+    width: 100%;
+    height: 12px;
+}
+.progress[value]::-webkit-progress-bar{
+    background-color: #eeeeee;
+}
+.progress[value]::-webkit-progress-value{
+    background-image: linear-gradient(to right,#fbbe29,#f0cf7f);
+}
+.experience{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:500px) {
+    .name-wrapper{
+        margin-top: 230px;
+    }
+    .name{
+        font-size: 3em;
+    } 
+    .title{
+        font-size: 2em;
+    
+    }
+    .body-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
