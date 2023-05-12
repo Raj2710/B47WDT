@@ -1,0 +1,20 @@
+button{
+    font-size: xx-large;background-color: cadetblue;
+    border: none;
+    box-shadow: 2px 2px;
+    color: white;
+    margin: 10px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+#value{
+    font-size: xx-large;
+    height: 20px;
+}
+
+#wrapper{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
