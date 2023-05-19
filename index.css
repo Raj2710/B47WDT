@@ -1,0 +1,22 @@
+#parent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ #child{
+    display: flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+    padding: 20px;
+    margin: 20px;
+ }
+
+ #flag{
+    height: 200px;
+    width: 300px;
+ }
+
+ #country,#capital{
+    text-align: center;
+ }
