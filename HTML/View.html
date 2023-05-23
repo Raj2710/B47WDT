@@ -10,20 +10,54 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/">Student Data</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
-              <a class="nav-link" href="./Create.html">Create</a>
-            </div>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Student Data</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <a class="nav-link" href="#">Create</a>
           </div>
         </div>
-      </nav>
-    <h1>View Student</h1>
+      </div>
+    </nav>
+  <h1>Student Data</h1>
+ <div class="container">
+  <form name="create" action="" method="post">
+    <div class="mb-3">
+      <label for="firstname" class="form-label">First Name</label>
+      <input type="text" class="form-control" id="firstname" placeholder="Enter First Name">
+    </div>
+
+    <div class="mb-3">
+      <label for="lastname" class="form-label">Last Name</label>
+      <input type="text" class="form-control" id="lastname" placeholder="Enter Last Name">
+    </div>
+
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Email">
+    </div>
+
+    <div class="mb-3">
+      <label for="mobile" class="form-label">Mobile</label>
+      <input type="text" class="form-control" id="mobile" placeholder="Enter Mobile">
+    </div>
+
+    <div class="mb-3">
+      <label for="batch" class="form-label">Batch</label>
+      <input type="text" class="form-control" id="batch" placeholder="Enter Batch">
+    </div>
+
+    <div class="mb-3">
+      
+      <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+ </div>
+ <script src="../JS/view.js"></script>
 </body>
 </html>

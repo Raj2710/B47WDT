@@ -28,6 +28,27 @@ async function loadData()
     createTable(data)
 }
 
+// async function create(){
+//     let student = {
+//         firstname:"Naga",
+//         lastname:"Raj",
+//         email:"naga@gmail.com",
+//         mobile:"91091092109",
+//         batch:"20",
+//         status:true
+//     }
+//     let res = await fetch(url,
+//         {
+//             headers: {
+//                 "Content-Type": "application/json",
+//               },
+//             method:'POST',
+//             body:JSON.stringify(student)});
+//         let data = res.json()
+//         console.log(data)
+// }
+
+
 async function deleteData(e)
 {
     if(confirm("Are you Sure? You are deleting data")){
