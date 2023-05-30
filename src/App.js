@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import Card from "./component/Card";
 import NavBar from "./component/NavBar";
-import Header from "./component/Header";
+// import Header from "./component/Header";
 
 function App() {
   let [cartValue,setCartValue] = useState(0)
